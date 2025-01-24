@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Admin Dashboard - Klinik Kesehatan Gigi</title>
+</head>
+<body class="bg-gradient-to-r from-white via-blue-100 to-blue-200 shadow">
+  <div class="flex">
+    <!-- Sidebar -->
+    <aside class="w-64 bg-gray-200 h-screen">
+      <div class="p-6">
+        <h1 class="text-xl font-bold text-gray-800 mb-4">SILOKER-Backend</h1>
+        <p class="text-gray-700 mb-6">Lind Admin</p>
+        <nav class="space-y-2">
+          <a href="../index.html" class="block px-3 py-2 text-gray-700 hover:bg-gray-300 rounded-md">Dashboard</a>
+          <a href="booking.html" class="block px-3 py-2 text-gray-700 hover:bg-gray-300 rounded-md">Booking</a>          <a href="layanan.html" class="block px-3 py-2 text-gray-700 hover:bg-gray-300 rounded-md">Layanan</a>
+          <a href="../index.html" class="block px-3 py-2 text-gray-700 hover:bg-gray-300 rounded-md">Logout</a>
+        </nav>
+      </div>
+    </aside>
+
+    <!-- Konten Utama -->
+    <main class="flex-1 p-6">
+      <header class="flex justify-between items-center mb-6">
+        <h2 class="text-xl font-bold">Admin Dashboard - Klinik Kesehatan Gigi Ananda - Depok</h2>
+      </header>
+
+      <!-- Konten Dashboard -->
+      <section class="bg-white shadow rounded-lg p-6">
+        <h3 class="text-lg font-bold text-gray-800 mb-4">Selamat Datang di Dashboard Admin</h3>
+        <p class="text-gray-700 mb-4">Silakan pilih salah satu opsi di sidebar untuk mengelola data.</p>
+        
+        <div class="space-y-4">
+          <a href="daftar-booking.html" class="block bg-blue-600 text-white text-center py-2 rounded-md hover:bg-blue-700">Admin Booking</a>
+          <a href="kelola-dokter.html" class="block bg-green-600 text-white text-center py-2 rounded-md hover:bg-green-700">Admin Dokter</a>
+        </div>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
